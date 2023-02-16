@@ -35,9 +35,9 @@ jobs:
                 ansible-playbook -i inventory.txt main4.yml
   
 workflows:
-  infrastructure_jobs
+  infrastructure_jobs:
     jobs:
-      - print_hello
-      - print_world
+      #- print_hello
+      #- print_world
       - configure_infrastructure
           

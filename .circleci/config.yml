@@ -37,7 +37,7 @@ jobs:
 workflows:
   infrastructure_jobs
     jobs:
-      #- print_hello
-      #- print_world
+      - print_hello
+      - print_world
       - configure_infrastructure
           

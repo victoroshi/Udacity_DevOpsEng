@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: "print_hello"
-          command: "echo Hello!"
+          command: "echo Hey Hello!"
   print_world:
     docker:
       - image: cimg/node:19.5.0
